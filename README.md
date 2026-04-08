@@ -1,30 +1,3 @@
-<!--language: zh-CN-->
-<!-- GitHub would read README.md as the default, so this IS the Chinese version -->
-
-<p align="center">
-  <!-- Language Toggle Button -->
-  <a href="README_EN.md" style="
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 16px;
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
-    border: 1px solid #3a7bd5;
-    border-radius: 20px;
-    color: #3a7bd5;
-    text-decoration: none;
-    font-size: 13px;
-    font-family: -apple-system, sans-serif;
-    font-weight: 600;
-    transition: all 0.2s ease;
-  " onmouseover="this.style.background='#3a7bd5'; this.style.color='#fff'; this.style.boxShadow='0 0 12px rgba(58,123,213,0.5)'"
-  onmouseout="this.style.background='linear-gradient(135deg, #1a1a2e, #16213e)'; this.style.color='#3a7bd5'; this.style.boxShadow='none'">
-    🌐 English
-  </a>
-</p>
-
----
-
 <p align="center">
   <img src="https://img.shields.io/badge/FreeRTOS-v11.1.0-26a269?style=flat-square&logo=freertos&logoColor=white" alt="FreeRTOS">
   <img src="https://img.shields.io/badge/Platform-ARM%20Cortex--M-00979d?style=flat-square" alt="Platform">
@@ -38,6 +11,28 @@
 
 *A14 Cortex · 源码驱动 · 实用主义*
 
+<!-- Language Toggle — placed after title, not at top of file -->
+<p align="right" style="margin-top:-40px">
+  <a href="README_EN.md" style="
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 14px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    border: 1px solid #3a7bd5;
+    border-radius: 20px;
+    color: #3a7bd5;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: -apple-system, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  " onmouseover="this.style.background='#3a7bd5'; this.style.color='#fff'; this.style.boxShadow='0 0 12px rgba(58,123,213,0.5)'"
+  onmouseout="this.style.background='linear-gradient(135deg, #1a1a2e, #16213e)'; this.style.color='#3a7bd5'; this.style.boxShadow='none'">
+    🌐 English
+  </a>
+</p>
+
 </div>
 
 ---
@@ -50,7 +45,6 @@
 
 <div align="center">
 
-| | | |
 |:--|:--|:--|
 | **🔬 紧贴源码** | **🎨 图文并茂** | **🛠️ 实用主义** |
 | 关键代码逐行 trace | 复杂流程配图（prompt 预留） | 概念 + 源码 + 调参 + 踩坑 |
