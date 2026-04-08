@@ -63,31 +63,31 @@
 - 5.4 优先级继承：解决优先级反转
 - 5.5 踩坑实录：死锁 / 忘记 Give / 递归互斥
 
-### 6_Time/ — 时间管理
-- 6.1 vTaskDelay vs vTaskDelayUntil
-- 6.2 Tick 中断机制
-- 6.3 软件定时器 daemon（timer.c）
-- 6.4 踩坑实录：延时精度 / 空转功耗
+### 6_Notifications/ — 事件标志组与任务通知
+- 6.1 事件标志组概念（Event Groups）
+- 6.2 事件标志组 API 速查
+- 6.3 事件标志组踩坑实录
+- 6.4 任务通知概念（Task Notifications）
+- 6.5 任务通知 API 速查
+- 6.6 任务通知踩坑实录
 
-### 7_Interrupt/ — 中断管理
-- 7.1 临界段：taskENTER_CRITICAL / taskEXIT_CRITICAL
-- 7.2 FromISR 的意义：中断安全函数
-- 7.3 中断嵌套规则（Cortex-M）
-- 7.4 踩坑实录：中断里不能 delay / 过长临界段
+### 7_Time/ — 时间管理
+- 7.1 vTaskDelay vs vTaskDelayUntil
+- 7.2 Tick 中断机制
+- 7.3 软件定时器 daemon（timer.c）
+- 7.4 踩坑实录：延时精度 / 空转功耗
 
-### 8_Port/ — 移植层
-- 8.1 移植层结构：portmacro.h
-- 8.2 ARM Cortex-M 移植要点
-- 8.3 Keil / IAR / GCC 差异
-- 8.4 换芯片怎么改
+### 8_Interrupt/ — 中断管理
+- 8.1 临界段：taskENTER_CRITICAL / taskEXIT_CRITICAL
+- 8.2 FromISR 的意义：中断安全函数
+- 8.3 中断嵌套规则（Cortex-M）
+- 8.4 踩坑实录：中断里不能 delay / 过长临界段
 
-### 9_Notifications/ — 事件标志组与任务通知
-- 9.1 事件标志组概念（Event Groups）
-- 9.2 事件标志组 API 速查
-- 9.3 事件标志组踩坑实录
-- 9.4 任务通知概念（Task Notifications）
-- 9.5 任务通知 API 速查
-- 9.6 任务通知踩坑实录
+### 9_Port/ — 移植层
+- 9.1 移植层结构：portmacro.h
+- 9.2 ARM Cortex-M 移植要点
+- 9.3 Keil / IAR / GCC 差异
+- 9.4 换芯片怎么改
 
 ---
 
