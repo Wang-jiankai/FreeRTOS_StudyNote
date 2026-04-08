@@ -3,13 +3,20 @@
   <img src="https://img.shields.io/badge/Platform-ARM%20Cortex--M-00979d?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/Base-FreeRTOS%20Kernel-26a269?style=flat-square&logo=freertos" alt="Kernel">
   <img src="https://img.shields.io/badge/License-MIT-ff6b6b?style=flat-square" alt="License">
-  &nbsp;&nbsp;
-  <a href="README_EN.md"><img src="https://img.shields.io/badge/Language-EN-3a7bd5?style=flat-square" alt="English"></a>
 </p>
 
 <h1 align="center">FreeRTOS 学习笔记</h1>
 
 <p align="center"><em>A14 Cortex · 源码驱动 · 实用主义</em></p>
+
+<p align="center">
+  <a href="README_EN.md" style="
+    display:inline-flex;align-items:center;gap:6px;
+    padding:5px 14px;margin:4px 0;
+    background:#1a1a2e;border:1px solid #3a7bd5;border-radius:20px;
+    color:#3a7bd5;text-decoration:none;font-size:12px;font-weight:600;
+  ">🌐 English</a>
+</p>
 
 ---
 
